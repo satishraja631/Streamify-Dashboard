@@ -1,10 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { FaUsers, FaPlayCircle, FaDollarSign, FaStar } from "react-icons/fa";
 
-interface Revenue {
-  subscriptions: number;
-  ads: number;
-}
+
 
 interface Metric {
   title: string;
