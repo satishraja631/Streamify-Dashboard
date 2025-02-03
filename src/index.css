@@ -1,0 +1,24 @@
+/* ./src/index.css */
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+  @apply min-h-screen bg-light-gray;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+
+}
+
+@theme{
+  --color-warm-gray:#eeefe8;
+  --color-light-gray:#F3F4F6;
+}
+
+
+
+
